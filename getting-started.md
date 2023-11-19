@@ -36,7 +36,7 @@ anywhere in our project.
 By default, Ducktion uses 'Auto Resolving', meaning you don't have to manually register your services. Let's
 see how you can access the `Player` class from anywhere in your project:
 
-```csharp
+```csharp{1,7}
 using TheRealIronDuck.Ducktion.Runtime;
 
 public class MyScript : MonoBehaviour {
