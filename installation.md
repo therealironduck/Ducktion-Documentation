@@ -68,4 +68,4 @@ as possible, including the steps you have taken and any error messages you have 
 
 ## Next Steps
 Now that you have installed Ducktion, you can start using it in your project. To learn more about how to use
-Ducktion, you may continue [here](./basics/configurator-classes).
+Ducktion, you may continue [here](./basics/).

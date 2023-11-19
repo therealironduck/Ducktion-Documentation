@@ -37,7 +37,7 @@ By default, Ducktion uses 'Auto Resolving', meaning you don't have to manually r
 see how you can access the `Player` class from anywhere in your project:
 
 ```csharp{1,7}
-using TheRealIronDuck.Ducktion.Runtime;
+using TheRealIronDuck.Ducktion;
 
 public class MyScript : MonoBehaviour {
     private Player _player;

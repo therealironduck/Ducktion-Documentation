@@ -22,11 +22,11 @@ export default defineConfig({
             {
                 text: 'Basics',
                 items: [
+                    {text: 'Configure the container', link: '/basics/'},
                     {text: 'Configurator classes', link: '/basics/configurator-classes'},
                     {text: 'Register services', link: '/basics/register-services'},
                     {text: 'Resolving services', link: '/basics/resolving-services'},
                     {text: 'Overriding services', link: '/basics/overriding-services'},
-                    {text: 'Configure the container', link: '/basics/configure-the-container'},
                 ]
             },
             {
@@ -55,9 +55,10 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Testing',
+                text: 'Testing & Debugging',
                 items: [
-                    {text: 'Create a Unity Test', link: '/testing/create-a-unity-test'},
+                    {text: 'Create a Unity Test', link: '/testing-and-debugging/create-a-unity-test'},
+                    {text: 'Internal logger', link: '/testing-and-debugging/logging'},
                 ]
             },
             {
