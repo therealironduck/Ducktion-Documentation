@@ -25,8 +25,8 @@ export default defineConfig({
                     {text: 'Configure the container', link: '/basics/'},
                     {text: 'Configurator classes', link: '/basics/configurator-classes'},
                     {text: 'Register services', link: '/basics/register-services'},
-                    {text: 'Resolving services', link: '/basics/resolving-services'},
-                    {text: 'Overriding services', link: '/basics/overriding-services'},
+                    {text: 'Resolve services', link: '/basics/resolve-services'},
+                    {text: 'Override services', link: '/basics/override-services'},
                 ]
             },
             {
