@@ -6,7 +6,6 @@ export default defineConfig({
     description: 'Ducktion Documentation',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: '/assets/logo.png',
 
         nav: [
             {text: 'Getting started', link: '/getting-started'},

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: <img src="./assets/logo.png" alt="drawing" width="150"/>Ducktion
+  name: "Ducktion"
   text: "Documentation"
   tagline: "Simple dependency injection for Unity3D"
   actions:
