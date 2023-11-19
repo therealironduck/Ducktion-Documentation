@@ -37,6 +37,7 @@ export default defineConfig({
                     {text: 'Dynamic instantiate', link: '/services/dynamic-instantiate'},
                     {text: 'Bind specific instances', link: '/services/bind-specific-instances'},
                     {text: 'Service IDs', link: '/services/service-ids'},
+                    {text: 'Auto Resolve', link: '/services/auto-resolve'},
                 ]
             },
             {
