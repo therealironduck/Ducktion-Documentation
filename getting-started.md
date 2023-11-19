@@ -1,3 +1,5 @@
+<img src="./assets/logo.png" alt="drawing" width="150"/><br>
+
 # Getting started
 
 Ducktion is a package for [Unity3D](https://unity.com) that provides a simple way to handle

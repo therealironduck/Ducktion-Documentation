@@ -2,10 +2,12 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: 'Ducktion Documentation',
-    description: 'Ducktion Documentation desc',
+    title: 'Ducktion',
+    description: 'Ducktion Documentation',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        logo: '/assets/logo.png',
+
         nav: [
             {text: 'Getting started', link: '/getting-started'},
             {text: 'Changelog', link: 'https://github.com/therealironduck/Ducktion/blob/develop/CHANGELOG.md'},
