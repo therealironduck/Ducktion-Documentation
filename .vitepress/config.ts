@@ -59,6 +59,14 @@ export default defineConfig({
                 items: [
                     {text: 'Create a Unity Test', link: '/testing/create-a-unity-test'},
                 ]
+            },
+            {
+                text: 'Other',
+                items: [
+                    {text: 'API reference', link: '/api-reference'},
+                    {text: 'History', link: '/history'},
+                    {text: 'Changelog', link: 'https://github.com/therealironduck/Ducktion/blob/develop/CHANGELOG.md'},
+                ]
             }
         ],
 
