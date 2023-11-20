@@ -3,6 +3,10 @@
 Ducktion includes a simple, straight-forward event bus that can be used to communicate between different parts of your 
 application. The event bus is a singleton, so you can access it from anywhere in your application.
 
+:::tip
+The event bus can be completely disabled in the [configuration](/basics/).
+:::
+
 ## Quick start
 
 Any event you want to fire must implement the `IEvent` interface. This interface is empty, so you can use any class you
