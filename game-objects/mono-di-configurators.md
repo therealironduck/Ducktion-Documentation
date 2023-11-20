@@ -1,3 +1,0 @@
-# Mono DI Configurators
-
-tbd

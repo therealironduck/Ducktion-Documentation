@@ -44,8 +44,7 @@ export default defineConfig({
             {
                 text: 'Game Objects',
                 items: [
-                    {text: 'Handle prefabs', link: '/game-objects/handle-prefabs'},
-                    {text: 'Mono Di Configurators', link: '/game-objects/mono-di-configurators'},
+                    {text: 'Handle prefabs', link: '/game-objects/handle-prefabs'}
                 ]
             },
             {

@@ -39,11 +39,6 @@ All mono configurators must be registered to the container. You can do this via 
 Alternatively you can call the `AddConfigurator` method on the container itself. See the 
 [example below](#idiconfigurator).
 
-:::info
-If you want more information or examples regarding `MonoDiConfigurators`, look at this 
-[dedicated page](/game-objects/mono-di-configurators).
-:::
-
 ## IDiConfigurator
 
 Classes implementing `IDiConfigurator` can also be registered with the container. The container will call the `register`
