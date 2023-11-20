@@ -35,8 +35,8 @@ export default defineConfig({
                 items: [
                     {text: 'Lazy Loading', link: '/services/lazy-loading'},
                     {text: 'Singleton services', link: '/services/singleton-services'},
-                    {text: 'Dynamic instantiate', link: '/services/dynamic-instantiate'},
                     {text: 'Bind specific instances', link: '/services/bind-specific-instances'},
+                    {text: 'Dynamic instantiation', link: '/services/dynamic-instantiation'},
                     {text: 'Service IDs', link: '/services/service-ids'},
                     {text: 'Auto Resolve', link: '/services/auto-resolve'},
                 ]
