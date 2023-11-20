@@ -41,7 +41,7 @@ interface.
 
 Here is how you would register such service:
 
-```csharp{9}
+```csharp{12}
 using TheRealIronDuck.Ducktion.Configurators;
 
 // Implement the interface and services
