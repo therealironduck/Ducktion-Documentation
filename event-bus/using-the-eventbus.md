@@ -44,9 +44,10 @@ You can find more information about firing events in the [dedicated documentatio
 To listen for an event, you can simply call the `Listen` method on the event bus, passing in the type of the event
 and a callback that will be called when the event is fired.
 
-```csharp{10-12}
+```csharp{11-13}
 using TheRealIronDuck.Ducktion;
 using TheRealIronDuck.Ducktion.Events;
+using UnityEngine;
 
 public class AnotherService
 {
