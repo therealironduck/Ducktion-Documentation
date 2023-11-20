@@ -14,7 +14,7 @@ information.
 
 When you register a service, you can specify the mode of the service. There are several methods to do this:
 
-```csharp{7-8,10-11,13-14}
+```csharp{8-9,11-12,14-15}
 using TheRealIronDuck.Ducktion.Configurators;
 using TheRealIronDuck.Ducktion.Enums;
 
