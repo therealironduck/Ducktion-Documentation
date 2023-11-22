@@ -58,7 +58,6 @@ export default defineConfig({
             {
                 text: 'Testing & Debugging',
                 items: [
-                    {text: 'Create a Unity Test', link: '/testing-and-debugging/create-a-unity-test'},
                     {text: 'Internal logger', link: '/testing-and-debugging/logging'},
                 ]
             },
