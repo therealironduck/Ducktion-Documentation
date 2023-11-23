@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Ducktion"
-  text: "Ducktion"
-  tagline: My great project tagline
+  text: "Documentation"
+  tagline: "Simple dependency injection for Unity3D"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /
+      text: "Getting started"
+      link: /getting-started
     - theme: alt
-      text: API Examples
+      text: "API reference"
       link: /
 
 features:
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

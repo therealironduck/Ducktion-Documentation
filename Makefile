@@ -31,3 +31,7 @@ build:
 ## Enter the container shell
 shell:
 	docker compose run --rm -it docs bash
+
+## Show the container logs
+logs:
+	docker compose logs -f
