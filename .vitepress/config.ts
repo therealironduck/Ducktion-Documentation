@@ -79,5 +79,8 @@ export default defineConfig({
     },
     sitemap: {
         hostname: 'https://ducktion.docs.jkniest.de'
-    }
+    },
+    srcExclude: [
+        "CHANGELOG.md"
+    ]
 })
