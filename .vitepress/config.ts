@@ -83,5 +83,6 @@ export default defineConfig({
     srcExclude: [
         "CHANGELOG.md",
         "README.md",
+        "CONTRIBUTING.md",
     ]
 })
