@@ -6,6 +6,9 @@ export default defineConfig({
     description: 'Ducktion Documentation',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        search: {
+            provider: 'local'
+        },
 
         nav: [
             {text: 'Getting started', link: '/getting-started'},
@@ -65,7 +68,6 @@ export default defineConfig({
                 text: 'Other',
                 items: [
                     {text: 'API reference', link: '/api-reference'},
-                    {text: 'History', link: '/history'},
                     {text: 'Changelog', link: 'https://github.com/therealironduck/Ducktion/blob/develop/CHANGELOG.md'},
                 ]
             }
