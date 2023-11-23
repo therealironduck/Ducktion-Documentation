@@ -2,12 +2,13 @@
   "name": "ducktions-docs",
   "devDependencies": {
     "bun-types": "latest",
-    "vitepress": "^1.0.0-rc.28"
+    "vitepress": "^1.0.0-rc.29"
   },
   "scripts": {
     "docs:dev": "vitepress dev .",
     "docs:build": "NODE_ENV=production vitepress build .",
-    "docs:preview": "vitepress preview ."
+    "docs:preview": "vitepress preview .",
+    "outdated": "bunx npm-check-updates"
   },
   "type": "module"
 }
