@@ -81,6 +81,7 @@ export default defineConfig({
         hostname: 'https://ducktion.docs.jkniest.de'
     },
     srcExclude: [
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "README.md",
     ]
 })
