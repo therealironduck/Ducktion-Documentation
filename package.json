@@ -2,7 +2,7 @@
   "name": "ducktions-docs",
   "devDependencies": {
     "bun-types": "latest",
-    "vitepress": "^1.0.0-rc.42"
+    "vitepress": "^1.1.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev .",
