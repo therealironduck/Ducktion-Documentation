@@ -1,7 +1,7 @@
 {
   "name": "ducktions-docs",
   "devDependencies": {
-    "bun-types": "^1.3.4",
+    "bun-types": "^1.3.5",
     "vitepress": "^1.6.4"
   },
   "scripts": {
