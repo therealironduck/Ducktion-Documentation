@@ -18,7 +18,7 @@ public class MyMonoConfigurator : MonoDiConfigurator
 }
 ```
 
-Alternatively you can use the `addTag` method.
+Alternatively you can use the `AddTag` method.
 
 If you want to register multiple tags, you can either fluently apply multiple `WithTag` methods or the `WithTags` method:
 
@@ -45,17 +45,17 @@ using TheRealIronDuck.Ducktion;
 public class SkillManager
 {
         public SkillManager(
-                [ResolveTags(tag: "skills")] TaggedServices skills) 
+                [ResolveTags(tag: "skill")] TaggedServices skills) 
         {
 
         }
 }
 ```
 
-The `TaggedServices` instance offers basically one function: `GetServices` which returns an IEnumerator with all resolved services containing the tag.
+The `TaggedServices` instance offers basically one function: `GetServices` which returns an IEnumerable with all resolved services containing the tag.
 
 ```csharp{5-7}
-[ResolveTags("skills")] private TaggedServices _skills;
+[ResolveTags("skill")] private TaggedServices _skills;
 
 public void RenderSkills()
 {
@@ -68,13 +68,13 @@ public void RenderSkills()
 
 ## Type-safety & filtering
 
-One issue with the approach above is, that services can have completely different types. Theoretically you could register your skill and some logger and even the eventbus with the same tag. That's why the `GetServices` method just returns `object`s.
+One issue with the approach above is, that services can have completely different types. Theoretically you could register your skill and some logger and even the event bus with the same tag. That's why the `GetServices` method just returns `object`s.
 
 Fortunately Ducktion has a solution for this! Let's assume all your skills extend a `BaseSkill` class. If you give the `GetServices` method a type generic, it will only return all services that extend (or are) the given type. This ensures that the correct type is set and can also be used to filter out stuff that is not relevant for you at that moment:
 
 
 ```csharp{5-7}
-[ResolveTags("skills")] private TaggedServices _skills;
+[ResolveTags("skill")] private TaggedServices _skills;
 
 public void RenderSkills()
 {
