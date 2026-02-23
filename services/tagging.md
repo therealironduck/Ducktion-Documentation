@@ -4,7 +4,7 @@ Let's say you want to have a service for each skill you have in your game. Duckt
 
 ## Tagging services
 
-Each service can have multiple tags. A tag is simply any custom string which is used to identify services which should be fetched together. Tags be be set during service registration:
+Each service can have multiple tags. A tag is simply any custom string which is used to identify services which should be fetched together. Tags can be set during service registration:
 
 ```csharp{7}
 using TheRealIronDuck.Ducktion.Configurators;
