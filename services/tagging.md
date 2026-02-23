@@ -13,7 +13,7 @@ public class MyMonoConfigurator : MonoDiConfigurator
 {
         public void Register(DiContainer container)
         {
-            container.Register<Fireball>().WithTag("skill")
+            container.Register<Fireball>().WithTag("skill");
         }
 }
 ```
