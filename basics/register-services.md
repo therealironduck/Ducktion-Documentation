@@ -31,7 +31,8 @@ This will register the service using the default [Lazy Mode](/services/lazy-load
 and [Singleton Mode](/services/singleton-services).
 
 From here you can modify the registered service with a few options, like
-[Instance binding](/services/bind-specific-instances) or [Dynamic Callbacks](/services/dynamic-instantiation).
+[Instance binding](/services/bind-specific-instances), [Dynamic Callbacks](/services/dynamic-instantiation) or
+[Parameter Bindings](/services/parameter-binding).
 
 ## Registering abstract classes and interfaces
 
