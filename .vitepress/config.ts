@@ -43,6 +43,7 @@ export default defineConfig({
                     { text: 'Parameter Binding', link: '/services/parameter-binding' },
                     { text: 'Service IDs', link: '/services/service-ids' },
                     { text: 'Auto Resolve', link: '/services/auto-resolve' },
+                    { text: 'Tagging', link: '/services/tagging' },
                 ]
             },
             {

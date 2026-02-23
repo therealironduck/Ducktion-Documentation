@@ -7,7 +7,7 @@ For example scalar values, like integers can be resolved automatically.
 
 When you register any service you can simply call the `SetParameter` method to bind a specific parameter to the container.
 
-```csharp{9}
+```csharp{8}
 using TheRealIronDuck.Ducktion.Configurators;
 using TheRealIronDuck.Ducktion.Enums;
 
@@ -30,7 +30,7 @@ any other way.
 
 Of course you can also remove your custom set parameter. This can easly be done using the `RemoveParameter` method.
 
-```csharp{11}
+```csharp{10}
 using TheRealIronDuck.Ducktion.Configurators;
 using TheRealIronDuck.Ducktion.Enums;
 
